@@ -1,0 +1,134 @@
+
+body{
+	padding:0;
+	margin:0;
+	background-image:url('Images/desertOne.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
+h1 {
+	width:fit-content;
+	color:white;
+	margin-left:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+    text-decoration:underline;
+	float:left;
+}
+
+header {
+	background:DeepSkyBlue;
+	padding:5px;
+	overflow:hidden;
+	border-bottom:solid 2px white;
+}
+
+
+
+#Messages,aside {
+	
+	height:550px;
+	margin:0;
+	
+}
+*{
+	font-family:tahoma;
+}
+#Messages{
+	width:80%;
+	
+}
+
+aside {
+	background:black;
+	opacity:0.8;
+	width:22%;
+
+
+}
+
+#Container {
+	display:flex;
+	flex-direction:rows;
+}
+
+#linkMessage {
+	background:DeepSkyBlue;
+	display:block;
+	width:20%;
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	border-radius:17px;
+	padding:7px 0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	font-family:tahoma;
+	opacity:no-inherit;
+	position:absolute;
+	z-index:2;
+	margin:20px 10px 10px 10px;
+	font-size:19px;
+
+}
+
+a img {
+	border-radius:50%;
+	vertical-align:middle;
+	margin-right:10px;
+	
+	
+}
+
+h2{
+	color:white;
+	margin-left:16px;
+	text-decoration:underline;
+}
+
+/*menu */
+
+ul {
+	list-style-type:none;
+    margin-top:40px;
+	
+	overflow:hidden;
+	width:50%;
+   float:left;
+   margin-left:95px;
+}
+
+li a {
+	font-size:22px;
+	text-decoration:none;
+	float:left;
+	margin-left:35px;
+	margin-right:85px;
+	  color:white;
+	  cursor:pointer;
+}
+
+button {
+	  display:inline-block;
+	  margin-top:27px;
+	  font-size:22px;
+	  margin-left:155px;
+	  padding:10px 12px;
+	  border-radius:10px;
+	  background:#FF4500;
+	  color:white;
+	  border:2px solid white;
+	  outline:none;
+}
+
+label {
+	color:white;
+	margin-left:10px;
+}
+
+hr {
+	background-color:lightgreen;
+	
+}
